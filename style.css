@@ -1,0 +1,30 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.main input{
+    margin: 20px auto;
+    width: 300px;
+    text-align: center;
+}
+
+button{
+    margin: 20px auto;
+    width: 150px;
+    height: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: coral;
+    text-decoration: none;
+    border: 2px solid brown;
+    border-radius: 10px;
+    cursor: pointer;
+
+}

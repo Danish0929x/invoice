@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Powered by Alchemial</h2>
+        <p>Your passport to the Future..</p>
+       <h3>Get your Invoice PDF</h3>
+    </header>
+
+    <div class="main">
+        <!-- ///Name/// -->
+        <label for="name">Enter Student name</label>
+        <input type="text" name="name" id="name" placeholder="Rohan" required>
+
+        <!-- ///ID/// -->
+        <label for="id">Enter Stuent ID</label>
+        <input type="text" name="id" id="id" placeholder="AL21ST015" required>
+
+        <!-- ///Number/// -->
+        <label for="number">Enter Stuent Number</label>
+        <input type="text" name="number" id="number" placeholder="+91 84569 23655" required>
+
+        <!-- ///email/// -->
+        <label for="email">Enter Stuent email</label>
+        <input type="email" name="email" id="email" placeholder="rohan@gma.com" required>
+
+        <!-- ///Invo/// -->
+        <label for="invo">Enter Invoice Number</label>
+        <input type="text" name="invo" id="invo" placeholder="#INVOICE 0 1 2 0 3 5" >
+
+        <!-- ///Date/// -->
+        <label for="date">Enter Date</label>
+        <input type="text" name="date" id="date" placeholder="13.05.2021" required>
+
+        <!-- ///first/// -->
+        <label for="first">Enter GST Statement</label>
+        <input type="text" name="first" id="first" placeholder="GST" required>
+
+        <!-- ///one/// -->
+        <label for="one">Enter GST Statement Price</label>
+        <input type="text" name="one" id="one" placeholder="$ 21.32" required>
+
+        <!-- ///second/// -->
+        <label for="second">Enter FIRST Statement</label>
+        <input type="text" name="second" id="second" placeholder="FIRST INSTALLMENT" required>
+
+        <!-- ///two/// -->
+        <label for="two">Enter FIRST Statement price</label>
+        <input type="text" name="two" id="two" placeholder="$ 21.32" required>
+
+        <!-- ///third/// -->
+        <label for="third">Enter SECOND Statement</label>
+        <input type="text" name="third" id="third" placeholder="SECOND INSTALLMENT" required>
+
+        <!-- ///three/// -->
+        <label for="three">Enter SECOND Statement price</label>
+        <input type="text" name="three" id="three" placeholder="$ 21.32" required>
+
+        <!-- ///fourth/// -->
+        <label for="fourth">Enter THIRD Statement</label>
+        <input type="text" name="fourth" id="fourth" placeholder="SECOND INSTALLMENT" required>
+
+        <!-- ///four/// -->
+        <label for="four">Enter THIRD Statement price</label>
+        <input type="text" name="four" id="four" placeholder="$ 21.32" required>
+
+        <!-- ///fifth/// -->
+        <label for="fifth">Enter FOURTH Statement</label>
+        <input type="text" name="fifth" id="fifth" >
+
+        <!-- ///five/// -->
+        <label for="five">Enter FOURTH Statement price</label>
+        <input type="text" name="five" id="five" >
+
+        <!-- ///sixth/// -->
+        <label for="sixth">Enter FIFTH Statement</label>
+        <input type="text" name="sixth" id="sixth" >
+
+        <!-- ///six/// -->
+        <label for="six">Enter FIFTH Statement price</label>
+        <input type="text" name="six" id="six" >
+
+        <!-- ///seventh/// -->
+        <label for="seventh">Enter SIXTH Statement</label>
+        <input type="text" name="seventh" id="seventh" >
+
+        <!-- ///seven/// -->
+        <label for="seven">Enter SIXTH Statement price</label>
+        <input type="text" name="seven" id="seven" >
+
+        <button id="submit">Get Invoice</button>
+    </div>
+
+    <!-- <iframe src="" id="mypdf" height="1000px" width="500px" frameborder="0"></iframe> -->
+
+
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="filesaver.js"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>
